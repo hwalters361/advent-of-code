@@ -1,10 +1,3 @@
-def priority(str):
-    p = 0
-    if str.isupper():
-        p += 26
-    p+=ord(str.lower()) - 96
-    return p
-
 def main():
     sum1 = 0
     sum2 = 0
