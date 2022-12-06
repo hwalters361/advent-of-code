@@ -7,7 +7,6 @@ def main():
     """Used a deque for part 1 and a python list for part 2"""
     stacks1 = [deque() for x in range(9)]
     stacks2 = [[] for x in range(9)]
-    lines = []
     for line in open('day-5.txt'):
         if len(stacks1[0]) < 8:
             carts = break_four(line)
